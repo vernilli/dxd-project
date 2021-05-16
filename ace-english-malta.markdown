@@ -25,10 +25,14 @@ The majority number of students, who leave their countries to study abroad, made
 
 This report supported me to understand the big picture of the market around the country, comparing ACE English Malta with other competitors, also opportunities to attack or new markets.
 
+![Report by Maltese government](/img/ace-english-malta/report.jpg)
+
 ### Surveys
 Every week, dozens of new students arrive from and depart to different countries and ages. The school distributes to its students a survey at the end of their course to understand their point of view. I reformulated some of the questions trying to understand not only how was their experience, but how everything started.
 
 The survey answers exposed an interesting fact: for both types of students — direct bookings and booking from agencies — our website was a point of contact in their decision process.
+
+![Scholl staff distributing the surveys](/img/ace-english-malta/survey.jpg)
 
 ### Interviews
 The surveys worked as my quantitative tool, then I had to go for a qualitative one. So, I decided to run some In-deep interviews. Thus, I’ve created a script for a semi-structured interview which would help me during the interview sessions.
@@ -62,10 +66,14 @@ Nowadays, English is a language a lot of people want to learn. ACE English Malta
 
 I’ve run some card sorting sessions with different groups of students. My goal was to find how they would group and categorize all the courses the school offers. Also, to have a wider perspective, I’ve invited the school staff and the management to participate in other different sessions.
 
+![Some of the card sorting on going](/img/ace-english-malta/card-sorting.jpg)
+
 ### Sketch and Prototype
 Before start drawing anything, I had to understand where we would create the website. As I wouldn’t have any developer working with me, we decided to use WordPress. Thus, I started to analyze which kind of components I could use to create the prototypes, and in the future, the website.
 
 I’ve decided to create two kinds of prototypes: a low-fidelity prototype or paper prototype; and a high-fidelity one. The goal of the first was to understand the better user flow; the second to test the interface itself and check with chosen elements work on the interface.
+
+![Some of the sketches](/img/ace-english-malta/sketch.jpg)
 
 ### Copyright and SEO
 Another huge factor we had to think about, was the copyright. Because it directly influences how users understand the school, services provided, and important information to take into consideration. We’ve created, together with one of our teachers, guidelines on how the website copy should be written and the tone of voice — not so formal, considering our main target, but not so informal.
@@ -76,6 +84,8 @@ In these guidelines, each page should have a copy explaining the topic, but also
 
 ### Development
 As mentioned previously, I’ve built the website using WordPress, due to my previous experience with the tool. My expertise with HTML and CSS supported me to I could build and change the website the way I wanted.
+
+![Mockups of after the redesign](/img/ace-english-malta/mockup.jpg)
 
 ## Results
 The entire process took around 3 months and a half, considering the research to the release. In the beginning, we identified on Google Analytics a huge increase in website access, which gave us a good first impression. After 5 months, I’ve compared the numbers of the new version with 5 months before — the old version:

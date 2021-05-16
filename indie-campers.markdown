@@ -20,12 +20,16 @@ When I joined indie campers a customer journey map was already created with the 
 
 We were going to change some of the touchpoints, including new ones: The listing page and SignUp page. So I’ve discussed with PMs how those new steps would influence the Customer Journey Map.
 
+![Customer experience map](/img/indie-campers/experience-map.jpg)
+
 ### Competitors Analysis
 The possibility to hire a campervan to travel is new on the mind of everybody. However, there a lot of players already in the market, so it would be extremely important to understand how our competitors built their listing pages and checkout step.
 
 We selected, compared, and analyzed some of our direct competitors’ listing pages
 
 We also analyzed other digital platforms — like Airbnb, Booking.com, Expedia — to check what other industries do nicely to give more ideas for our version.
+
+![Some of the competitors, direct and indirect ones](/img/indie-campers/competitor.jpg)
 
 ### Customer listening
 The Customer Support Team listed the most frequent questions they received about the vehicles, such as insurance, fuel type, extras available to hire, features and amenities, location to pick up the vehicle, etc.
@@ -44,9 +48,14 @@ The challenge here was to make the price breakdown more clear and simpler, with 
 ### Mockups and prototyping
 Mobile is taking a huge space across the internet, and at Indie Campers is not different, around 70% of the access to the website is on mobile devices. So, I’ve started the approach of mobile-first and then adapt to other devices.
 
+![Mockups of the new pages and website funnel](/img/indie-campers/mockup.jpg)
+
 As previously explained, we used an MVP approach, so I’ve created the MVP version and other steps to the most complete version. Furthermore, I’ve created an iconography style as a new set of icons was required, a set that could be used for the van features, facilities, and status messages.
 
 I’ve used Adobe XD to create the mockups and prototypes, and Adobe Illustrator to create the icons
+
+![Prototype on a mobile device](/img/indie-campers/prototype.jpg)
+
 
 ## Development
 At Indie Campers, all designers have to have some knowledge in HTML and CSS, as they are people in charge to guarantee that what is being developed is what they’ve designed. Indie Campers’ website is built using VueJS and SASS on the front end, I’ve worked alongside a full-stack developer to create those pages.
