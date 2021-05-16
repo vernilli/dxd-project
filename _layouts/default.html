@@ -1,7 +1,16 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
 
-{{ content }}
-
-{% include showcase.html %}
-
-{% include footer.html %}
+  <body>
+    {% include header.html %}
+    
+    {{ content }}
+    
+    {% include showcase.html %}
+    
+    {% include footer.html %}
+  </body>
+</html>
