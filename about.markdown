@@ -20,12 +20,27 @@ So, let’s grab a coffee and have a talk.
 
 ## Experience
 
-put a includes here
+{% for item in site.data.background.experience %}
+  {{ item.title }}
+  {{ item.company }}
+  {{ item.period }}
+  {{ item.location }}{{ item.locationFlag }}
+{% endfor %}
 
 ## Presentation
 
-put a includes here
+{% for item in site.data.background.presentation %}
+  {{ item.title }}
+  {{ item.company }}
+  {{ item.period }}
+  {{ item.location }}{{ item.locationFlag }}
+{% endfor %}
 
 ## Education
 
-put a includes here
+{% for item in site.data.background.education %}
+  {{ item.title }}
+  {{ item.company }}
+  {{ item.period }}
+  {{ item.location }}{{ item.locationFlag }}
+{% endfor %}

@@ -91,3 +91,5 @@ Users spent 8% more time;
 I plan to continue improving and enhancing the experience ACE English Malta provides to its clients and visitors. Add new languages on the website might be small or simple, however, it can impact significantly as the students are not well familiar with the language when they are searching for a school. Translating all the content to another language is, indeed, a hard and long job, however, we have to step back to another challenge: understand all the targets more in detail for each new translation.
 
 Curious and unexpected information I found out analyzing our Google Analytics account: 15% of the website access is from Malta. That is a big challenge to understand why those numbers are so high, considering our target is not Maltese people. But this is a conversation for another time.
+
+{% include showcase.html %}

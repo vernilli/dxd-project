@@ -62,3 +62,5 @@ The process took around 3 months. Our Customer support team uses a platform that
 On the following day of the release, I’ve set a few trackers on our Hotjar account to identify potential new improvements or any issues. A lot of new content has been added explaining our vehicle, but we could identify new information we could explain better.
 
 We could identify we are explaining well about the vehicles, but information about the service should be better explained. Also, we are planning to start AB Tests, so in future we will be able to test several changes at the same time.
+
+{% include showcase.html %}
