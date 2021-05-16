@@ -48,6 +48,10 @@ h6 { font-size: $h6-size-mobile; }
   h6 { font-size: $h6-size; }
 }
 
+h1 { text-align: center; }
+
+h1, h2, h3, h4, h5, h6 { margin-bottom: $grid-mm; }
+
 p {
   color: $vv-gray-darker;
   font-family: $font-sans;

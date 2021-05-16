@@ -1,4 +1,5 @@
-.container { 
+.container {
+  margin: 0 auto;
   max-width: 960px;
   padding-left: $grid-lg;
   padding-right: $grid-lg;
@@ -97,6 +98,82 @@ a.main-link {
   }
 }
 
-.vv-icon {
-  * { stroke-width: $icon-regular !important; } 
+body {
+  margin-top: 120px;
+}
+
+header {
+  background: $vv-white;
+  border-bottom: solid 1px $vv-gray-lightest;
+  padding: $grid-xs 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+  @media (min-width: 768px) {
+    padding: $grid-mm 0;
+  }
+
+  .header {
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__title {
+      font-size: $h2-size-mobile;
+
+      @media (min-width: 768px) {
+        font-size: $h2-size;
+      }
+    }
+  }
+
+  .main-link {
+    margin-left: $grid-md;
+
+    @media (min-width: 768px) {
+      margin-left: $grid-lg;
+    }
+  }
+}
+
+footer {
+  border-top: solid 1px $vv-gray-lightest;
+  margin-top: 80px;
+  padding: $grid-md 0;
+
+  @media (min-width: 768px) {
+    padding: $grid-lg 0;
+  }
+
+  .footer {
+    &__container nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+
+      @media (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+.content {
+  &__container {
+    margin-top: $grid-lg;
+
+    @media (min-width: 768px) {
+      margin: $grid-xx auto 0;
+      width: 80%;
+    }
+  }
+}
+.w-100 {
+  width: 100%;
 }
