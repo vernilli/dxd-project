@@ -1,0 +1,102 @@
+.container { 
+  max-width: 960px;
+  padding-left: $grid-lg;
+  padding-right: $grid-lg;
+
+  @media (min-width: 768px) {
+    padding-left: $grid-md;
+    padding-right: $grid-md;
+  }
+
+  &--expanded {
+    max-width: 1180px;
+    padding-left: $grid-md;
+    padding-right: $grid-md;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.bg{
+  &--green,
+  &--green::before {
+    background-color: $vv-green;
+  }
+
+  &--green-light,
+  &--green-light::before {
+    background-color: $vv-green-light;
+  }
+
+  &--green-dark,
+  &--green-dark::before {
+    background-color: $vv-green-dark;
+  }
+
+  &--green-darker,
+  &--green-darker::before {
+    background-color: $vv-green-darker;
+  }
+
+  &--blue,
+  &--blue::before {
+    background-color: $vv-blue;
+  }
+
+  &--blue-dark,
+  &--blue-dark::before {
+    background-color: $vv-blue-dark;
+  }
+}
+
+a.main-link {
+  @include transition(all 0.2s);
+  color: $vv-gray-dark;
+  font-family: $font-sans;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+
+  display: inline-flex;
+  align-items: center;
+
+  &::before {
+    @include transition(all 0.2s);
+    content: '';
+    background-color: $vv-gray-darkest;
+    border-radius: 100px;
+    height: 2px;
+    width: 0;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+  }
+
+  &.nuxt-link-exact-active {
+    cursor: default !important;
+  }
+
+  &:hover,
+  &.nuxt-link-exact-active {
+    color: $vv-gray-darkest;
+
+    &::before {
+      width: 100%;
+    }
+  }
+
+  svg {
+    margin-left: $grid-sm;
+
+    * {
+      stroke-width: $icon-regular;
+    }
+  }
+}
+
+.vv-icon {
+  * { stroke-width: $icon-regular !important; } 
+}

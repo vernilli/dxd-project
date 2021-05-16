@@ -1,0 +1,74 @@
+// Gray Scale
+$vv-white:           hsl(0, 0%, 100%);
+$vv-gray-lightest:   hsl(0, 0%,  85%);
+$vv-gray-lighter-2:  hsl(0, 0%,  70%);
+$vv-gray-lighter:    hsl(0, 0%,  55%);
+$vv-gray:            hsl(0, 0%,  45%);
+$vv-gray-dark:       hsl(0, 0%,  30%);
+$vv-gray-darker:     hsl(0, 0%,  20%);
+$vv-gray-darkest:    hsl(0, 0%,  10%);
+$vv-black:           hsl(0, 0%,   0%);
+
+// Main colors
+$vv-green-lighter:   hsl(189,  95%, 45%);
+$vv-green-light:     hsl(189, 100%, 35%);
+$vv-green:           hsl(189, 100%, 25%);
+$vv-green-dark:      hsl(189, 100%, 15%);
+$vv-green-darker:    hsl(189, 100%,  5%);
+
+$vv-blue:            hsl(204, 100%, 25%);
+$vv-blue-dark:       hsl(204, 100%, 15%);
+
+$vv-wine:            hsl(0, 100%, 25%);
+$vv-wine-dark:       hsl(0, 100%, 15%);
+
+// Font families
+@import url('https://fonts.googleapis.com/css?family=Varela:100,300,400,500,600,700,900&font-display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round:100,300,400,500,600,700,900&font-display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,900&font-display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Lora:100,300,400,700,900&font-display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&font-display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Merriweather:100,300,400,700,900&font-display=swap');
+$font-sans:  'Varela Round', 'Varela', 'Montserrat', sans-serif;
+$font-serif: 'Lora', serif;
+
+// Font sizes
+// Major third scale. Reference at https://type-scale.com/
+$span-size:  14px;
+$label-size: 16px;
+$p-size:     16px;
+$h6-size:    18px;
+$h5-size:    20px;
+$h4-size:    24px;
+$h3-size:    32px;
+$h2-size:    40px;
+$h1-size:    48px;
+
+$span-size-mobile:  12px;
+$label-size-mobile: 14px;
+$p-size-mobile:     18px;
+$h6-size-mobile:    18px;
+$h5-size-mobile:    18px;
+$h4-size-mobile:    22px;
+$h3-size-mobile:    28px;
+$h2-size-mobile:    32px;
+$h1-size-mobile:    40px;
+
+// Grid scale
+$grid-xs:  4px;
+$grid-sm:  8px;
+$grid-mm: 12px;
+$grid-md: 16px;
+$grid-lg: 24px;
+$grid-xl: 32px;
+$grid-xx: 48px;
+
+// Icon scale
+$icon-thin:    24px;
+$icon-regular: 32px;
+$icon-medium:  40px;
+$icon-bold:    48px;
+
+$shadow-1: 0 0    6px 0   rgba($color: $vv-black, $alpha: 0.12);
+$shadow-2: 0 1px 16px 0   rgba($color: $vv-black, $alpha: 0.12);
+$shadow-3: 0 6px 16px 4px rgba($color: $vv-black, $alpha: 0.20);
