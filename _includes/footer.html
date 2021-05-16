@@ -1,8 +1,14 @@
 <footer>
-  <div class="container">
-    <nav>
+  <div class="footer__container container">
+    <nav class="w-100">
       {% for link in site.data.footer %}
-        <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>
+        <a 
+          href="{{ link.url }}"
+          class="main-link"
+          target="_blank"
+        >
+          {{ link.label }}
+        </a>
       {% endfor %}
     </nav>
   </div>
