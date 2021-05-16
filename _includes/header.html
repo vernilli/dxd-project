@@ -1,0 +1,14 @@
+<header>
+  <div class="container">
+    
+    <a href="{{ site.baseurl }}">
+      <h1>Victor Vernilli</h1>
+    </a>
+
+    <nav>
+      {% for link in site.data.header %}
+        <a href="{{ site.baseurl }}{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
