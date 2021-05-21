@@ -1,0 +1,140 @@
+.portfolio {
+  &__general {
+    padding-top: $grid-xx;
+  }
+
+  &__showcase {
+    display: grid;
+    grid-gap: $grid-md;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: $grid-xx;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__card {
+    @include transition(all 0.35s);
+    border-radius: 5px;
+    box-shadow: 0 0 0 0 transparent;
+    padding: $grid-lg;
+    position: relative;
+    min-height: 200px;
+    text-align: left;
+    overflow: hidden;
+
+    * { 
+      @include transition(all 0.35s);
+      position: relative;
+    }
+
+    &:hover {
+      @include transform(translate3d(0, -2px, 0));
+      box-shadow: $shadow-3;
+      text-decoration: none;
+
+      .portfolio__card__image {
+        height: 81%;
+      }
+    }
+
+    &__image {
+      @include no-user-selection;
+      object-fit: contain;
+      -o-object-fit: contain;
+      object-position: bottom right;
+      -o-object-position: bottom right;
+      position: absolute;
+      height: 60%;
+      bottom: -$grid-xl;
+      right: -15%;
+      z-index: 0;
+
+      @media (min-width: 768px) {
+        height: 80%;
+      }
+    }
+
+    &__title {
+      color: $vv-white;
+      font-size: $h5-size;
+      font-weight: 700;
+      width: 80%;
+    }
+
+    &__desc {
+      color: $vv-white;
+      font-size: $p-size;
+      font-weight: 400;
+      line-height: 1.25;
+      margin: unset;
+      margin-bottom: $grid-md;
+      width: 100%;
+
+      @media (min-width: 768px) {
+        width: 50%;
+      }
+    }
+
+    &__reading-time {
+      background: rgba($color: $vv-white, $alpha: 0.6);
+      border-radius: 3px;
+      color: $vv-green-darker;
+      font-size: $span-size;
+      font-weight: 600;
+      padding: $grid-xs $grid-sm;
+    }
+  }
+
+  &__page {
+    &__hero {
+      position: relative;
+      height: 30vh;
+      margin-bottom: $grid-lg;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @media (min-width: 768px) {
+        height: 40vh;
+      }
+
+      &__img {
+        -o-object-fit: cover;
+        -o-object-position: top;
+        object-fit: cover;
+        object-position: top;
+
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+
+        opacity: 0.5;
+        z-index: -1;
+      }
+
+      &__title {
+        background: $vv-white;
+        border-radius: 3px;
+        padding: $grid-sm;
+        margin-bottom: 0;
+      }
+
+      &__time {
+        background: $vv-white;
+        border-radius: 3px;
+        font-size: $h5-size;
+        font-weight: 600;
+        padding: $grid-xs $grid-sm;
+      }
+    }
+    
+    &__end {
+      font-size: $h1-size;
+      text-align: center;
+    }
+  }
+}
