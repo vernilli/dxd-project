@@ -1,18 +1,46 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Product Designer
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I’m an end-to-end product designer who strongly believes user-centered design can create meaningful and impactful products.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Defined as a generalist, I’m comfortable collaborating and building products from scratch to release. With a strong tech background, I’m able to transit from research to front-end technologies.
 
+I’m the type of designer who loves work hands-on, researching, designing, and coding and sees all the work comes alive.
 
-[jekyll-organization]: https://github.com/jekyll
+But before a Designer, I’m a human being... we all ARE. Before users or clients, we are HUMANS. That mindset can make the best changes in the tech-based industry.
+
+Also, I love history 🗿 (we can learn a lot with it) and eager to discover new things. Practicing sports is one of my favorite hobbies (Table tennis player in development 🏓) I’m also a coffee lover ☕
+
+So, let’s grab a coffee and have a talk.
+
+## Experience
+
+{% for item in site.data.background.experience %}
+  {{ item.title }}
+  {{ item.company }}
+  {{ item.period }}
+  {{ item.location }}{{ item.locationFlag }}
+{% endfor %}
+
+## Presentation
+
+{% for item in site.data.background.presentation %}
+  {{ item.title }}
+  {{ item.company }}
+  {{ item.period }}
+  {{ item.location }}{{ item.locationFlag }}
+{% endfor %}
+
+## Education
+
+{% for item in site.data.background.education %}
+  {{ item.title }}
+  {{ item.company }}
+  {{ item.period }}
+  {{ item.location }}{{ item.locationFlag }}
+{% endfor %}
