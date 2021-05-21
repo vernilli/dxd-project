@@ -1,10 +1,10 @@
 ---
 layout: default
 title: About
+titleVisible: Product Designer
 permalink: /about/
+hasShowcase: false
 ---
-
-# Product Designer
 
 I’m an end-to-end product designer who strongly believes user-centered design can create meaningful and impactful products.
 
