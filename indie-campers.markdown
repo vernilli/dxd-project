@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Indie Campers
+titleVisible: Indie Campers
 permalink: /indie-campers
+cover: /img/indie-campers/mockup.jpg
+time: 4 min read time
+hasShowcase: true
 ---
-
-# {{ page.title }}
 
 ## The Challenge
 Create a new page for the Indie Campers’ models/categories, showing technical info to support the clients when choosing a model to travel. The whole funnel experience — including sign up page and checkout page — also had to be redesigned, as it has a strong correlation with those new pages.
@@ -20,7 +22,7 @@ When I joined indie campers a customer journey map was already created with the 
 
 We were going to change some of the touchpoints, including new ones: The listing page and SignUp page. So I’ve discussed with PMs how those new steps would influence the Customer Journey Map.
 
-![Customer experience map](/img/indie-campers/experience-map.jpg)
+![Customer experience map]({{ site.baseurl }}/img/indie-campers/experience-map.jpg)
 
 ### Competitors Analysis
 The possibility to hire a campervan to travel is new on the mind of everybody. However, there a lot of players already in the market, so it would be extremely important to understand how our competitors built their listing pages and checkout step.
@@ -29,7 +31,7 @@ We selected, compared, and analyzed some of our direct competitors’ listing pa
 
 We also analyzed other digital platforms — like Airbnb, Booking.com, Expedia — to check what other industries do nicely to give more ideas for our version.
 
-![Some of the competitors, direct and indirect ones](/img/indie-campers/competitor.jpg)
+![Some of the competitors, direct and indirect ones]({{ site.baseurl }}/img/indie-campers/competitor.jpg)
 
 ### Customer listening
 The Customer Support Team listed the most frequent questions they received about the vehicles, such as insurance, fuel type, extras available to hire, features and amenities, location to pick up the vehicle, etc.
@@ -48,13 +50,13 @@ The challenge here was to make the price breakdown more clear and simpler, with 
 ### Mockups and prototyping
 Mobile is taking a huge space across the internet, and at Indie Campers is not different, around 70% of the access to the website is on mobile devices. So, I’ve started the approach of mobile-first and then adapt to other devices.
 
-![Mockups of the new pages and website funnel](/img/indie-campers/mockup.jpg)
+![Mockups of the new pages and website funnel]({{ site.baseurl }}/img/indie-campers/mockup.jpg)
 
 As previously explained, we used an MVP approach, so I’ve created the MVP version and other steps to the most complete version. Furthermore, I’ve created an iconography style as a new set of icons was required, a set that could be used for the van features, facilities, and status messages.
 
 I’ve used Adobe XD to create the mockups and prototypes, and Adobe Illustrator to create the icons
 
-![Prototype on a mobile device](/img/indie-campers/prototype.jpg)
+![Prototype on a mobile device]({{ site.baseurl }}/img/indie-campers/prototype.jpg)
 
 
 ## Development
@@ -72,4 +74,4 @@ On the following day of the release, I’ve set a few trackers on our Hotjar acc
 
 We could identify we are explaining well about the vehicles, but information about the service should be better explained. Also, we are planning to start AB Tests, so in future we will be able to test several changes at the same time.
 
-{% include showcase.html %}
+{% include end-page.html %}

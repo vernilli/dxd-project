@@ -1,10 +1,19 @@
-<div>
+<div class="portfolio__showcase">
   {% for project in site.data.projects %}
     <a href="{{ site.baseurl }}{{ project.perma }}">
-      <div>
-        <h2>{{ project.title }}</h2>
-        <p>{{ project.desc }}</p>
-        <span>{{ project.time }}</span>
+      <div class="portfolio__card bg--green-dark">
+        <img src="{{ site.baseurl }}{{ project.img }}" alt="" class="portfolio__card__image">
+        <div>
+          <h2 class="portfolio__card__title">
+            {{ project.title }}
+          </h2>
+          <p class="portfolio__card__desc">
+            {{ project.desc }}
+          </p>
+        </div>
+        <span class="portfolio__card__reading-time">
+          {{ project.time }}
+        </span>
       </div>
     </a>
   {% endfor %}

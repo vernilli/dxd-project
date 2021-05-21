@@ -2,17 +2,41 @@
 <html>
   <head>
     <title>Victor Vernilli — {{ page.title }}</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   </head>
 
   <body>
     {% include header.html %}
+
+    {% if page.cover %}
+      <div class="portfolio__page__hero">
+        <img class="portfolio__page__hero__img" src="{{ site.baseurl }}{{ page.cover }}" alt="">
+        <div class="text-center">
+          <h1 class="portfolio__page__hero__title">
+            {{ page.titleVisible }}
+          </h1>
+          <span class="portfolio__page__hero__time">
+            {{ page.time }}
+          </span>
+        </div>
+      </div>
+    {% else %}
+      <div class="portfolio__general">
+        <h1>{{ page.titleVisible }}</h1>
+      </div>
+    {% endif %}
     
     <div class="container">
       <div class="content__container">
         {{ content }}
       </div>
     </div>
+    
+    {% if page.hasShowcase == true %}
+      <div class="container--expanded">
+        {% include showcase.html %}
+      </div>
+    {% endif %}
     
     {% include footer.html %}
   </body>
