@@ -1,0 +1,89 @@
+<h2 class="about__sub-title">Experience</h2>
+
+{% for item in site.data.background.experience %}
+  <div class="about__career-item">
+    <div class="about__career-item__first">
+      <h3 class="about__career-item__position">
+        {{ item.title }}
+      </h3>
+      <a 
+        href="{{ item.companyUrl }}"
+        target="_blank"
+        class="about__career-item__company-conference main-link"
+      >
+        {{ item.company }}
+      </a>
+    </div>
+    <div class="about__career-item__second">
+      <span class="about__career-item__period">
+        {{ item.period }}
+      </span>
+      <span class="about__career-item__location">
+        {{ item.location }}
+        <span class="flag">
+          {{ item.locationFlag }}
+        </span>
+      </span>
+    </div>
+  </div>
+{% endfor %}
+
+<h2 class="about__sub-title">Presentation</h2>
+
+{% for item in site.data.background.presentation %}
+  <div class="about__career-item">
+    <div class="about__career-item__first">
+      <h3 class="about__career-item__position">
+        {{ item.title }}
+      </h3>
+      <a 
+        href="{{ item.companyUrl }}"
+        target="_blank"
+        class="about__career-item__company-conference main-link"
+      >
+        {{ item.company }}
+      </a>
+    </div>
+    <div class="about__career-item__second">
+      <span class="about__career-item__period">
+        {{ item.period }}
+      </span>
+      <span class="about__career-item__location">
+        {{ item.location }}
+        <span class="flag">
+          {{ item.locationFlag }}
+        </span>
+      </span>
+    </div>
+  </div>
+{% endfor %}
+
+<h2 class="about__sub-title">Education</h2>
+
+{% for item in site.data.background.education %}
+  <div class="about__career-item">
+    <div class="about__career-item__first">
+      <h3 class="about__career-item__position">
+        {{ item.title }}
+      </h3>
+      <a 
+        href="{{ item.companyUrl }}"
+        target="_blank"
+        class="about__career-item__company-conference main-link"
+      >
+        {{ item.company }}
+      </a>
+    </div>
+    <div class="about__career-item__second">
+      <span class="about__career-item__period">
+        {{ item.period }}
+      </span>
+      <span class="about__career-item__location">
+        {{ item.location }}
+        <span class="flag">
+          {{ item.locationFlag }}
+        </span>
+      </span>
+    </div>
+  </div>
+{% endfor %}

@@ -18,29 +18,4 @@ Also, I love history 🗿 (we can learn a lot with it) and eager to discover new
 
 So, let’s grab a coffee and have a talk.
 
-## Experience
-
-{% for item in site.data.background.experience %}
-  {{ item.title }}
-  {{ item.company }}
-  {{ item.period }}
-  {{ item.location }}{{ item.locationFlag }}
-{% endfor %}
-
-## Presentation
-
-{% for item in site.data.background.presentation %}
-  {{ item.title }}
-  {{ item.company }}
-  {{ item.period }}
-  {{ item.location }}{{ item.locationFlag }}
-{% endfor %}
-
-## Education
-
-{% for item in site.data.background.education %}
-  {{ item.title }}
-  {{ item.company }}
-  {{ item.period }}
-  {{ item.location }}{{ item.locationFlag }}
-{% endfor %}
+{% include background.html %}
