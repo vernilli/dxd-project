@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Victor Vernilli — {{ page.title }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   </head>
 
@@ -26,11 +28,11 @@
       </div>
     {% endif %}
     
-    <div class="container">
+    <main class="container">
       <div class="content__container">
         {{ content }}
       </div>
-    </div>
+    </main>
     
     {% if page.hasShowcase == true %}
       <div class="container--expanded">
